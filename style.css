@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding-bottom: 800px;
+}
+
+.profile {
+    width: 400px;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: deeppink;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#faa7e9 10%, #d6a4ed 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.inner {
+
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Bad Script', cursive;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Bad Script', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Bad Script', cursive;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 42px;
+    margin-top: 1000px;
+    background: linear-gradient(#d6a4ed 10%, #faa7e9 100%);
+}
+
+hr {
+    height: 6px;
+    background-color: blueviolet;
+    width: 50%;
+    margin: 8px auto;
+
+}
+
+p {
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'Bad Script', cursive;
+    margin: 25px auto;
+
+}
+
+.menu {
+    font-family: 'Bad Script', cursive;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    background: white;
+}
+
+.links {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    display: inline;
+
+}
+
+.links:hover {
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+.wasd:hover {
+    color: darkcyan;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px lightpink;
+}
+
+#articles a {
+    text-shadow: none !important;
+    color: blue !important;
+}
+
+#contact {
+    background: crimson;
+}
+
+.contact_1 a {
+    color: ghostwhite;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
